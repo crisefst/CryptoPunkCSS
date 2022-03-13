@@ -1,2 +1,2 @@
 # CryptoPunkCSS
---Not Ready Yet-- Crypto Punk CSS Project
+--Almost Ready-- Crypto Punk CSS Project Preview
