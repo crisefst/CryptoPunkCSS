@@ -17,13 +17,21 @@ body, html{
 	position: relative;
 	margin: auto auto;
 }
-#outline1{
+/*#outline1{
 	width: 50px;
 	height: 700px;
 	background-color: black ;
 	position: absolute;
 	bottom: 0;
 	left: 375px;
+}*/
+#outline1{
+	width: 50px;
+	height: 700px;
+	background-color: black ;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
 }
 #outline2{
 	border: solid black;
@@ -114,14 +122,16 @@ body, html{
 	position: absolute;
 	bottom: 17%;
 	left: 42.7%;
+	z-index: 1;
 }
 #detail2{
 	background-color: black;
-	width:50px;
+	width:45px;
 	height: 100px;
 	position: absolute;
-	bottom: 22.1%;
-	left: 39.1%;
+	bottom: 22.2%;
+	left: 39.4%;
+	z-index: 1;
 }
 #detail3{
 	background-color: black;
@@ -134,7 +144,7 @@ body, html{
 }
 #detail4{
 	background-color: #1636a3;
-	width: 127px;
+	width: 125.8px;
 	height: 50px;
 	position: absolute;
 	top: 25.3%;
@@ -200,4 +210,144 @@ body, html{
 	position: absolute;
 	top: 30.5%;
 	left: 23.6%;
+}
+
+/*Face Fill*/
+
+#face1{
+	background-color: #857055;
+	width: 209px;
+	height: 489px;
+	position: absolute;
+	bottom: 17%;
+	left: 46.4%;
+}
+#face2{
+	background-color: #857055;
+	width: 309px;
+	height: 440px;
+	position: absolute;
+	bottom: 22.3%;
+	left: 42.8%;
+}
+#face3{
+	background-color: #857055;
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	bottom: 42.6%;
+	left: 38.9%;
+}
+
+/*Squares Fill Face*/
+
+#sq1{
+	background-color: #35230f;
+	width:50px;
+	height: 50px;
+	position: absolute;
+	bottom: 37.17%;
+	left: 42.4%;
+}
+#sq2{
+	background-color: #35230f;
+	width:50px;
+	height: 50px;
+	position: absolute;
+	bottom: 37.17%;
+	right: 34.2%;
+}
+#sq3{
+	background-color: #35230f;
+	width:50px;
+	height: 50px;
+	position: absolute;
+	bottom: 42.6%;
+	left: 38.9%;
+}
+
+/*EyeBrows*/
+
+#ibrow1{
+	background-color: #69553c;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 35.5%;
+	left: 43%;
+}
+#ibrow2{
+	background-color: #69553c;
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	top: 35.5%;
+	left: 58.37%;
+}
+
+
+/*Eyes*/
+
+#blackeye1{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40.9%;
+	left: 43%;
+}
+#blackeye2{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40.9%;
+	left: 58.37%;
+}
+#browneyexd{
+	background-color: #a98c6a;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40.9%;
+	left: 46.66%;
+}
+#browneyedgirl{
+	background-color: #a98c6a;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40.9%;
+	left: 62.1%;
+}
+
+/*Nose*/
+
+#nose1{
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 52.98%;
+	left: 49.5%;
+}
+#nose2{
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 52.98%;
+	left: 56.5%;
+}
+
+/*Mouth*/
+
+#mouth{
+	background-color: black;
+	width: 210px;
+	height: 45px;
+	position: absolute;
+	bottom: 25%;
+	right: 37.9%;
+
 }
