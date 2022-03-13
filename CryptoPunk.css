@@ -14,7 +14,7 @@ body, html{
 	background-color: #648596;
 	width: 1343px;
 	height: 935px;
-	position: absolute;
+	position: relative;
 	margin: auto auto;
 }
 #outline1{
